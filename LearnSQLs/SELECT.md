@@ -15,7 +15,7 @@ SELECT symbol FROM nasdaq_company
 ```
 > nasdaq_company 테이블에서 symbol 컬럼을 모두 가져온다.
 
-</br>
+#
 
 ### 여러 개의 열 검색하기
 ```sql
@@ -24,7 +24,7 @@ SELECT symbol, company_name FROM nasdaq_company
 > nasdaq_company 테이블에서 symbol, company_name 컬럼을 모두 가져온다.  
 > 컬럼명 사이에 쉼표를 넣어 구분한다.
 
-</br>
+#
 
 ### 전체 열 검색하기
 ```sql
@@ -33,6 +33,18 @@ SELECT * FROM nasdaq_company
 > nasdaq_company 테이블의 모든 컬럼을 가져온다.  
 > 컬럼명 대신 *를 넣어 구분한다.
 
-</br>
+#
 
 ### SSMS 에서 테이블의 열 정보 확인하기
+```sql
+EXEC sp_columns @table_name = N'nasdaq_company', @table_owner = N'dbo';
+```
+> `SQL Server` 에서만 사용할 수 있는 시스템 함수
+
+#
+
+### Quiz
+- nasdaq_company 테이블에서 sector, industry 열만 검색하세요.  
+[Answer](../QuerySQLs/SELECT_Quiz_1.sql)
+- nasdaq_company 테이블에서 symbol, close_price 열만 검색하세요.  
+[Answer](../QuerySQLs/SELECT_Quiz_2.sql)

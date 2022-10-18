@@ -118,7 +118,7 @@ SELECT TOP 10 ProductName, Price FROM Products
 ORDER BY Price DESC, ProductName ASC
 ```
 
-TOP은 테이블에 어떤 데이터가 어떻게 저장되어있는지 등  
+`TOP` 은 테이블에 어떤 데이터가 어떻게 저장되어있는지 등  
 데이터를 가볍게 확인하는 용도로 사용하기 적합하다.
 
 ---
@@ -160,5 +160,5 @@ FETCH NEXT 20 ROWS ONLY -- 20만 보여준다
 - Users 테이블에서 Year_of_subscription 컬럼이 2022년인 데이터 중에  
 Work 컬럼이 Developer 혹은 Programmer인 데이터를 검색해서  
 Name 오름차순으로 정렬한 후  
-101번째 데이터부터 20개의 데이터를 출력하세요.
+101번째 데이터부터 20개의 데이터를 출력하세요.  
 [answer](../QuerySQLs/ORDER_BY_Quiz_1.sql)

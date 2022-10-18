@@ -5,4 +5,5 @@
 - [Database](https://drive.google.com/file/d/1Xz0H4EO5ryeVsfrTzHngMvXdAuPQBjWU/view)
 
 ### Learn Contents
-- [SELECT](./LearnSQLs/SELECT.md)
+- [SELECT 문으로 데이터 검색하기](./LearnSQLs/SELECT.md)
+- [WHERE 문으로 조건에 맞는 데이터 검색하기](./LearnSQLs/WHERE.md)

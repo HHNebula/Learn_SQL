@@ -15,4 +15,5 @@
 # 학습 목록
 - [SELECT 문으로 데이터 검색하기](./LearnSQLs/SELECT.md)
 - [WHERE 문으로 조건에 맞는 데이터 검색하기](./LearnSQLs/WHERE.md)
-- [NULL 데이터 검색](./LearnSQLs/NULL_Data_Search.md)
+- [NULL 데이터 필터링 및 검색하기](./LearnSQLs/NULL_Data_Search.md)
+- [ORDER BY 문으로 데이터 정렬하기](./LearnSQLs/ORDER_BY.md)

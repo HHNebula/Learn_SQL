@@ -7,6 +7,7 @@ SELECT *
 FROM Users
 WHERE Work
 IN ( 'Developer', 'Programmer' )
+AND Year_of_subscription = 2022
 ORDER BY Name
 OFFSET 100 ROWS
 FETCH NEXT 20 ROWS ONLY

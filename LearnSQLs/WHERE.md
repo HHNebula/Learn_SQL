@@ -15,7 +15,7 @@ SELECT * FROM nasdaq_company WHERE symbol = 'MSFT'
 ```
 > nasdaq_company 테이블에서 symbol 이 'MSFT' 인 인스턴스를 가져온다.
 
-#
+---
 
 ### 비교 연산자 종류
 
@@ -34,7 +34,7 @@ SELECT * FROM nasdaq_company WHERE symbol = 'MSFT'
 데이터베이스 시스템이 정의한 정렬 기준에 따라 결과가 달라지므로  
 데이터 속성에 따라 연산자를 적절히 사용해야 한다.
 
-#
+---
 
 ### 비교 연산자 사용하기
 
@@ -64,7 +64,7 @@ SELECT * FROM nasdaq_company
 WHERE last_crawel_date != '2021-10-14'
 ```
 
-#
+---
 
 ### WHERE 문에서 논리 연산자 사용하기
 
@@ -83,7 +83,7 @@ WHERE last_crawel_date != '2021-10-14'
 |OR|하나의 부울식이 TRUE 이면 TRUE|
 |SOME|비교 집합 중 일부가 TURE 이면 TRUE|
 
-#
+---
 
 ### BETWEEN을 이용한 데이터 검색
 
@@ -108,7 +108,7 @@ AND last_crawel_date <= '2021-3-19'
 -- 2013-03-18 ~ 2013-03-19 를 포함한 날짜 검색
 ```
 
-#
+---
 
 ### OR 와 IN
 
@@ -130,7 +130,7 @@ WHERE symbol IN ( 'MSFT', 'XXXX', 'AAA' )
 -- symbol이 'MSFT' 또는 'XXXX' 또는 'AAA' 인 데이터 검색
 ```
 
-#
+---
 
 ### 쿼리의 우선순위
 
@@ -164,7 +164,7 @@ WHERE sector IN ( 'Technology', 'Consumer Services' )
 AND symbol IN ( 'MSFT', 'AMD', 'AMZN' )
 ```
 
-#
+---
 
 ### Quiz
 [`w3schools 활용 퀴즈`](https://www.w3schools.com/mysql/mysql_ref_functions.asp)

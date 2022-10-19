@@ -172,8 +172,8 @@ WHERE symbol LIKE 'A__[^A-E]%'
 ---
 
 ### Quiz
-- Customers 테이블에서 Country 가 A~D로 시작하며  
-마지막 2번째 글자가 g~z가 아닌 데이터  
+- Customers 테이블에서 Country 가 A ~ D로 시작하며  
+마지막 2번째 글자가 g ~ z가 아닌 데이터  
 [answer](/QuerySQLs/WildCard_Quiz_1.sql)
 - Customers 테이블에서 Country 가 A~D로 시작하지 않으며  
 a~d로 끝나는 7글자 이상인 데이터  

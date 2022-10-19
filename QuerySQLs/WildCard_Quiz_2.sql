@@ -2,7 +2,7 @@
 -- a~d로 끝나는 7글자 이상인 데이터
 
 SELECT * FROM Customers
-WHERE Country LIKE '[A-D]%_____[a-d]';
+WHERE Country LIKE '[^A-D]%_____[a-d]';
 
 SELECT * FROM Customers
-WHERE Country LIKE '[A-D]_____%[a-d]';
+WHERE Country LIKE '[^A-D]_____%[a-d]';

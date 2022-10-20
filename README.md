@@ -14,7 +14,7 @@
 ## 학습 목록
 
 ### NOT LANGUAGE
-
+- [DATA TYPE 간단 요약 정리](./LearnSQLs/Data_Types.md)
 
 ### DML - Data Manipulation Language
 - [SELECT 문으로 데이터 검색하기](./LearnSQLs/SELECT.md)

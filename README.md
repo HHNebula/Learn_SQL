@@ -13,6 +13,9 @@
  
 ## 학습 목록
 
+### NOT LANGUAGE
+
+
 ### DML - Data Manipulation Language
 - [SELECT 문으로 데이터 검색하기](./LearnSQLs/SELECT.md)
 - [WHERE 문으로 조건에 맞는 데이터 검색하기](./LearnSQLs/WHERE.md)
@@ -25,3 +28,5 @@
 ### DDL - Data Definition Language
 - [[ CREATE / DROP ] 데이터베이스 / 테이블 생성 및 삭제하기](./LearnSQLs/CREATE_DATABASE.md)
 - [[INSERT] 테이블에 데이터 삽입하기](./LearnSQLs/INSERT.md)
+- [[UPDATE / DELETE] 데이터 수정 및 삭제하기](./LearnSQLs/UPDATE_DELETE.md)
+- [[INSERT-SELECT] 다른 테이블에 데이터 입력하기](./LearnSQLs/INSERT_SELECT.md)

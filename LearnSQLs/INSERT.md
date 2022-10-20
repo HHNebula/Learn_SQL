@@ -15,9 +15,9 @@ VALUES ( VALUE1, VALUE2, VALUE3 ... );
 
 ```sql
 CREATE TABLE Users (
-    UserID INT(10) NOT NULL COMENT '회원번호',
-    UserName VARCHAR(200) NOT NULL COMENT '사용자명',
-    UserEmail VARCHAR(200) NULL COMENT '이메일'
+    UserID INT(10) NOT NULL COMMENT '회원번호',
+    UserName VARCHAR(200) NOT NULL COMMENT '사용자명',
+    UserEmail VARCHAR(200) NULL COMMENT '이메일'
 );
 
 INSERT INTO Users ( UserID, UserName, UserEmail )

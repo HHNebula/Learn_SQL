@@ -24,6 +24,7 @@
 - [ORDER BY 문으로 데이터 정렬하기](./LearnSQLs/ORDER_BY.md)
 - [WILDCARDS로 포함 혹은 포함하지 않는 데이터 검색하기](./LearnSQLs/WildCard.md)
 - [GROUP BY 문으로 데이터 그룹화하여 필터링하기](./LearnSQLs/GROUP_BY.md)
+- [JOIN 문으로 테이블을 통합하기]()
 
 ### DDL - Data Definition Language
 - [[ CREATE / DROP ] 데이터베이스 / 테이블 생성 및 삭제하기](./LearnSQLs/CREATE_DATABASE.md)
